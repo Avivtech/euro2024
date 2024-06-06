@@ -1,5 +1,5 @@
-var apiKey = config.MY_KEY;
-var apiSecret = config.SECRET_KEY;
+var apiKey = process.config.MY_KEY;
+var apiSecret = process.config.SECRET_KEY;
 const competitionId = "387";
 const url = `https://livescore-api.com/api-client/fixtures/matches.json?key=${apiKey}&secret=${apiSecret}&competition_id=${competitionId}`;
 
