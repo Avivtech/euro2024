@@ -1,5 +1,5 @@
-var apiKey = process.env.FOOTBALL_API_KEY;
-var apiSecret = process.env.FOOTBALL_API_SECRET;
+const apiKey = "bh5CasuyOEq3eQV1";
+const apiSecret = "LWSKc2jVjLJ51Kdc2iPcLjKAYbDd1yeM";
 const competitionId = "387";
 const url = `https://livescore-api.com/api-client/fixtures/matches.json?key=${apiKey}&secret=${apiSecret}&competition_id=${competitionId}`;
 
