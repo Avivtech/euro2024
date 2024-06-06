@@ -20,5 +20,6 @@ jobs:
 
     - name: Run script
       env:
-        MY_SECRET: ${{ secrets.MY_SECRET }}
+        FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+        FOOTBALL_API_SECRET: ${{ secrets.FOOTBALL_API_SECRET }}
       run: node scripts.js
